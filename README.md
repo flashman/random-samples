@@ -1,2 +1,2 @@
 # random-samples
-A random collection of smaller "example" coding projects suitable for sharing.
+A random collection of smaller "sample" coding projects suitable for sharing.
