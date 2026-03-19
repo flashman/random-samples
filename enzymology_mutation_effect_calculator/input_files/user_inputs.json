@@ -1,0 +1,12 @@
+{
+ "feature_term": "CDS",
+ "sequence_input_mode": "manual",
+ "sequence_translation_data": "\n    AAs  = FFLLSSSSYY**CC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG\n  Starts = ---M------**--*----M---------------M----------------------------\n  Base1  = TTTTTTTTTTTTTTTTCCCCCCCCCCCCCCCCAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGG\n  Base2  = TTTTCCCCAAAAGGGGTTTTCCCCAAAAGGGGTTTTCCCCAAAAGGGGTTTTCCCCAAAAGGGG\n  Base3  = TCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAGTCAG\n",
+ "sequence_translation_mode": "standard",
+ "pipeline_params_filename": "pipeline_parameters.json",
+ "library_type": "Single Site Library",
+ "coefficient_cutoff_p": 0.001,
+ "fiop_filename": "PSv7b_fiops_NGS_small.csv",
+ "fiop_column": "FIOP_conversion",
+ "sequences_filename": "PSv7b_fiops_NGS_small_dna_sequences.fasta"
+}

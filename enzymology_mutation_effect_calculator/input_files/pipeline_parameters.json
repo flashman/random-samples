@@ -1,0 +1,28 @@
+{
+  "pipeline_parameters": {
+    "min_observations": 1,
+    "precondition": false,
+    "drop_redundant_features": true,
+    "degree": 1,
+    "group_k_fold": {
+      "n_splits": 5
+    },
+    "elastic_net_cv": {
+      "l1_ratio": [
+        0.1,
+        0.5,
+        0.7,
+        0.9,
+        0.99,
+        1.0
+      ],
+      "selection": "random"
+    }
+  },
+  "generalizability_analysis_parameters": {
+    "min_train_frac": 0.2,
+    "max_train_frac": 0.8,
+    "n_steps": 4,
+    "n_splits": 8
+  }
+}

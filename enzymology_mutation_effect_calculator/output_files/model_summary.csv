@@ -1,0 +1,19 @@
+,value
+Dep. Variable,FIOP_conversion
+Model,OLS
+Method,Least Squares
+Date,"Wed, 11 Aug 2021"
+Time,12:47:19
+No. Observations,    48
+Df Residuals,    28
+Df Model,    20
+Covariance Type,nonrobust
+R-squared,   0.943
+Adj. R-squared,   0.904
+F-statistic,   23.01
+Prob (F-statistic),2.08e-12
+Log-Likelihood,  40.932
+AIC,  -39.86
+BIC, -0.5682
+alpha,0.0029295815720752237
+L1_wt,1.0

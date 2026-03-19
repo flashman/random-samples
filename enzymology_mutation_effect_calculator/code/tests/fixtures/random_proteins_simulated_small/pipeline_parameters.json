@@ -1,0 +1,21 @@
+{
+  "pipeline_parameters": {
+    "precondition": false,
+    "min_observations": 1,
+    "degree": 1,
+    "k_fold": {
+      "n_splits": 5,
+      "shuffle": true
+    },
+    "elastic_net_cv": {
+      "l1_ratio": [
+        0.1,
+        0.5,
+        0.7,
+        0.9,
+        0.99,
+        1.0
+      ]
+    }
+  }
+}

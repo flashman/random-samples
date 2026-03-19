@@ -1,0 +1,7 @@
+{
+    "A": {"start": true, "edges": {"B": 2, "C": 1}},
+    "B": {"edges": {"D": 3}},
+    "C": {"edges": {"D": 5}},
+    "D": {"edges": {"E": 1}},
+    "E": {"edges": {}}
+}

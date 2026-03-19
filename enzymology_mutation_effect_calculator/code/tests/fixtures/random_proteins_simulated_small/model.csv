@@ -1,0 +1,6 @@
+,target_id,query_id,alignment_position,target_position,query_position,target_seq,query_seq,name,common_name,effect
+0,-1,mutant,1,1,1,N,R,N1R,N2R,1.9765293341016492
+1,-1,mutant,2,2,2,R,G,R2G,R3G,2.004627121878714
+2,-1,mutant,3,3,3,N,Y,N3Y,N4Y,2.002525434664016
+3,-1,mutant,7,7,7,N,K,N7K,N8K,1.9885473468438242
+4,-1,mutant,9,9,9,F,C,F9C,F10C,2.025851747944849

@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "workflow-runner"
+version = "0.1.0"
+description = ""
+authors = ["flashman <michael.flashman@gmail.com>"]
+readme = "README.md"
+package-mode = true
+
+
+[tool.poetry.scripts]
+workflow-runner = 'workflow_runner.main:cli'
+
+[tool.poetry.dependencies]
+python = "^3.11"
+isort = "^5.13.2"
+pydantic = "^2.7.4"
+click = "^8.1.7"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+isort = "^5.13.2"
+pytest = "^8.2.2"
+pytest-asyncio = "^0.23.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target_version = ['py311']
+exclude = '''
+(
+  /(
+    | \.git
+    | \.venv
+    | \.mypy_cache
+  )/
+)
+'''
+
+[tool.isort]
+line_length = 100
+profile = "black"
